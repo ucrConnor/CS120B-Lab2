@@ -1,9 +1,11 @@
-/*
- * Part1.cpp
- *
- * Created: 4/4/2018 3:05:45 PM
- * Author : Connor
- */ 
+/*    Connor Carpenter ccarp006@ucr.edu, David Silva dsilv022@ucr.edu
+ *    Lab Section: 024
+ *    Assignment: Lab 2  Exercise 1 
+ *    
+ *    I acknowledge all content contained herein, excluding template or example
+ *    code, is my own original work.
+ */
+
 
 #include <avr/io.h>
 
@@ -22,10 +24,10 @@ int main(void)
 		tempB = PINB;
 		count = 0x00;
 		while(tempA || tempB){
-			if(PINA & 0x01) 
+			if(tempA & 0x01) 
 				count++;
 				
-			if(PINB & 0x01) 	
+			if(tempB & 0x01) 	
 				count++;
 			
 			tempA = tempA >> 1;

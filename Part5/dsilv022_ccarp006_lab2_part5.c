@@ -1,10 +1,10 @@
-/*
- * Part5.cpp
- *
- * Created: 4/4/2018 8:36:11 PM
- * Author : Connor
- */ 
-
+/*    Connor Carpenter ccarp006@ucr.edu, David Silva dsilv022@ucr.edu
+ *    Lab Section: 024
+ *    Assignment: Lab 2  Exercise 5
+ *    
+ *    I acknowledge all content contained herein, excluding template or example
+ *    code, is my own original work.
+ */
 #include <avr/io.h>
 
 
