@@ -17,7 +17,7 @@ int main(void)
     while (1) 
     {
 		weight = PIND;
-		weight = (weight << 1) + PINB & 0x01;
+		weight = (weight << 1) + (PINB & 0x01);
 		if (weight > 0x05){
 			airbag = weight > 0x46 ? 0x01 : 0x00;	
 			PORTB |= (airbag << 1);

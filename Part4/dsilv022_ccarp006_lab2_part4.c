@@ -25,7 +25,7 @@ int main(void)
 		lower = lower << 4;
 		
 		PORTB = upper;
-		PORTC = 0xFF;
+		PORTC = lower;
 		
     }
 }
